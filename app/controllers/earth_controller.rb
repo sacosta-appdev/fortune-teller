@@ -10,7 +10,7 @@ class EarthController < ApplicationController
       @array_of_numbers.push(another_number)
     end
 
-    render({ :template => "au_naturale/taurus.html.erb" })
+    render({ :template => "nature_templates/taurus.html.erb" })
   end
 
   def maiden
