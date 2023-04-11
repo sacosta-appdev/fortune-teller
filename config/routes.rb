@@ -26,11 +26,11 @@ Rails.application.routes.draw do
   get("/zodiacs/capricorn", { :controller => "earth", :action => "goat" })
   
   get("/zodiacs/gemini", { :controller => "air", :action => "twins" })
-  # get(" /zodiacs/libra", { :controller => "air", :action => "scales" })
-  # get ("/zodiacs/aquarius", { :controller => "air", :action => "waterbearer" })
+  get("/zodiacs/libra", { :controller => "air", :action => "scales" })
+  get("/zodiacs/aquarius", { :controller => "air", :action => "waterbearer" })
   
-  # get("/zodiacs/cancer " { :controller => "earth" :action => "crab" })
-  # get("/zodiac/ scorpio", { :controller => "Water", :action => "scorpion" })
+  get("/zodiacs/cancer", { :controller => "water", :action => "crab" })
+  # get("/zodiac/ scorpio", { :controller => "water", :action => "scorpion" })
   # get("/zodiacs/pisces", { :controller => "water", :action => "fish " })
 
   # PART 3: MORE R→C→A→V PRACTICE
